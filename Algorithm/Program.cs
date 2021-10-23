@@ -11,6 +11,7 @@ namespace Algorithm
         {
             Console.WriteLine("1. Permutation of String ");
             Console.WriteLine("2. Binary Search the Word ");
+            Console.WriteLine("3. Insertion Sort");
             Console.Write("Enter your choice of operation : ");
             int choice = int.Parse(Console.ReadLine());
             switch (choice)
@@ -26,6 +27,12 @@ namespace Algorithm
                     List<string> list = new List<string>(filepath.Split(' '));
                     list.Sort();
                     BinarySearch.Search(list);
+                    break;
+                case 3:
+                    InsertionSort insertionSort = new InsertionSort();
+                    string[] array = { "Hello", "World", "Good", "Morning" };
+                    insertionSort.Sort(array);
+                    insertionSort.PrintArray(array);
                     break;
                 default:
                     break;

@@ -1,0 +1,14 @@
+C:\Users\Mady\source\repos\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.exe
+C:\Users\Mady\source\repos\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.deps.json
+C:\Users\Mady\source\repos\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.json
+C:\Users\Mady\source\repos\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.dev.json
+C:\Users\Mady\source\repos\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.dll
+C:\Users\Mady\source\repos\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.pdb
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfoInputs.cache
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfo.cs
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dll
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
+C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache

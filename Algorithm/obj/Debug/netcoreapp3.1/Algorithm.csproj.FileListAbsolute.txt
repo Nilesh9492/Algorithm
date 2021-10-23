@@ -12,3 +12,17 @@ C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm
 C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dll
 C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
 C:\Users\Mady\source\repos\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache
+E:\NILESH\C#\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.exe
+E:\NILESH\C#\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.deps.json
+E:\NILESH\C#\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.json
+E:\NILESH\C#\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.dev.json
+E:\NILESH\C#\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.dll
+E:\NILESH\C#\Algorithm\Algorithm\bin\Debug\netcoreapp3.1\Algorithm.pdb
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfoInputs.cache
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfo.cs
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.csproj.CoreCompileInputs.cache
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.dll
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.pdb
+E:\NILESH\C#\Algorithm\Algorithm\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache

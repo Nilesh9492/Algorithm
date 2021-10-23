@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mady\\source\\repos\\Algorithm\\Algorithm\\Algorithm.csproj": {}
+    "E:\\NILESH\\C#\\Algorithm\\Algorithm\\Algorithm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mady\\source\\repos\\Algorithm\\Algorithm\\Algorithm.csproj": {
+    "E:\\NILESH\\C#\\Algorithm\\Algorithm\\Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mady\\source\\repos\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectUniqueName": "E:\\NILESH\\C#\\Algorithm\\Algorithm\\Algorithm.csproj",
         "projectName": "Algorithm",
-        "projectPath": "C:\\Users\\Mady\\source\\repos\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectPath": "E:\\NILESH\\C#\\Algorithm\\Algorithm\\Algorithm.csproj",
         "packagesPath": "C:\\Users\\Mady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mady\\source\\repos\\Algorithm\\Algorithm\\obj\\",
+        "outputPath": "E:\\NILESH\\C#\\Algorithm\\Algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mady\\AppData\\Roaming\\NuGet\\NuGet.Config",

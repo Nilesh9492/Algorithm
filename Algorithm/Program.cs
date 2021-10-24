@@ -14,6 +14,7 @@ namespace Algorithm
             Console.WriteLine("3. Insertion Sort");
             Console.WriteLine("4. Bubble Sort");
             Console.WriteLine("5. Merge Sort");
+            Console.WriteLine("6. Anagram Detection");
             Console.Write("Enter your choice of operation : ");
             int choice = int.Parse(Console.ReadLine());
             switch (choice)
@@ -46,6 +47,10 @@ namespace Algorithm
                     int[] array1 = { 6,2,8,3,9,12,10 };
                     MergeSort.Sort(array1, 0, array1.Length - 1);
                     MergeSort.PrintArray(array1);
+                    break;
+                case 6:
+                    Anagram anagram = new Anagram();
+                    anagram.CheckAnagram();
                     break;
                 default:
                     break;

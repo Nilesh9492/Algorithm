@@ -13,6 +13,7 @@ namespace Algorithm
             Console.WriteLine("2. Binary Search the Word ");
             Console.WriteLine("3. Insertion Sort");
             Console.WriteLine("4. Bubble Sort");
+            Console.WriteLine("5. Merge Sort");
             Console.Write("Enter your choice of operation : ");
             int choice = int.Parse(Console.ReadLine());
             switch (choice)
@@ -40,6 +41,11 @@ namespace Algorithm
                     int[] arr = { 2,7,3,9,1,10 };
                     bubbleSort.Sort(arr);
                     bubbleSort.PrintArray(arr);
+                    break;
+                case 5:
+                    int[] array1 = { 6,2,8,3,9,12,10 };
+                    MergeSort.Sort(array1, 0, array1.Length - 1);
+                    MergeSort.PrintArray(array1);
                     break;
                 default:
                     break;

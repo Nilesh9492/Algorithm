@@ -31,24 +31,24 @@ namespace Algorithm
                     string filepath = File.ReadAllText(@"E:\NILESH\C#\Algorithm\words.txt");
                     List<string> list = new List<string>(filepath.Split(' '));
                     list.Sort();
-                    BinarySearch.Search(list);
+                    BinarySearch<string>.Search(list);
                     break;
                 case 3:
-                    InsertionSort insertionSort = new InsertionSort();
+                    InsertionSort<string> insertionSort = new InsertionSort<string>();
                     string[] array = { "Hello", "World", "Good", "Morning" };
                     insertionSort.Sort(array);
                     insertionSort.PrintArray(array);
                     break;
                 case 4:
-                    BubbleSort bubbleSort = new BubbleSort();
+                    BubbleSort<int> bubbleSort = new BubbleSort<int>();
                     int[] arr = { 2,7,3,9,1,10 };
                     bubbleSort.Sort(arr);
                     bubbleSort.PrintArray(arr);
                     break;
                 case 5:
                     int[] array1 = { 6,2,8,3,9,12,10 };
-                    MergeSort.Sort(array1, 0, array1.Length - 1);
-                    MergeSort.PrintArray(array1);
+                    MergeSort<int>.Sort(array1, 0, array1.Length - 1);
+                    MergeSort<int>.PrintArray(array1);
                     break;
                 case 6:
                     Anagram anagram = new Anagram();

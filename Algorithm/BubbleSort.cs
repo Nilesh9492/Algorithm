@@ -4,25 +4,25 @@ using System.Text;
 
 namespace Algorithm
 {
-    class BubbleSort
+    class BubbleSort<T> where T : IComparable
     {
-        public void Sort(int[] arr)
+        public void Sort(T[] arr)
         {
             int n = arr.Length;
             for (int i = 0; i < n - 1; i++)
             {
                 for (int j = 0; j < n - i - 1; j++)
                 {
-                    if (arr[j] > arr[j + 1])
+                    if (arr[j].CompareTo(arr[j + 1])<0)
                     {
-                        int temp = arr[j];
+                        T temp = arr[j];
                         arr[j] = arr[j + 1];
                         arr[j + 1] = temp;
                     }
                 }
             }
         }
-        public void PrintArray(int[] arr)
+        public void PrintArray(T[] arr)
         {
             int n = arr.Length;
             for (int i = 0; i < n; ++i)

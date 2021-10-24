@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Algorithm
 {
-    class BinarySearch
+    class BinarySearch<T> where T : IComparable
     {
         public static void Search(List<string> list)
         {

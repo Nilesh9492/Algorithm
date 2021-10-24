@@ -4,16 +4,16 @@ using System.Text;
 
 namespace Algorithm
 {
-    class InsertionSort
+    class InsertionSort<T> where T : IComparable
     {
-        public void Sort(string[] array)
+        public void Sort(T[] array)
         {
             int n = array.Length;
             for (int i = 1; i < n; i++)
             {
-                string max = array[i];
+                T max = array[i];
                 int j = i - 1;
-                while (j >= 0 && array[j].Length > max.Length)
+                while (j >= 0 && array[j].CompareTo( max)>0)
                 {
                     array[j + 1] = array[j];
                     j = j - 1;
@@ -21,7 +21,7 @@ namespace Algorithm
                 array[j + 1] = max;
             }
         }
-        public void PrintArray(string[] array)
+        public void PrintArray(T[] array)
         {
             Console.WriteLine("The Sorted array is : ");
             int n = array.Length;

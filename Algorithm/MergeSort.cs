@@ -4,15 +4,15 @@ using System.Text;
 
 namespace Algorithm
 {
-    class MergeSort
+    class MergeSort<T> where T : IComparable
     {
-        public static void Merge(int[] array1, int l, int m, int r)
+        public static void Merge(T[] array1, int l, int m, int r)
         {
             int n1 = m - l + 1;
             int n2 = r - m;
 
-            int[] left = new int[n1];
-            int[] right = new int[n2];
+            T[] left = new T[n1];
+            T[] right = new T[n2];
             int i, j;
 
             for (i = 0; i < n1; ++i)
@@ -29,7 +29,7 @@ namespace Algorithm
             int k = l;
             while (i < n1 && j < n2)
             {
-                if (left[i] <= right[j])
+                if (left[i].CompareTo(right[j])<0)
                 {
                     array1[k] = left[i];
                     i++;
@@ -54,18 +54,17 @@ namespace Algorithm
                 k++;
             }
         }
-        public static void Sort(int[] array1, int l, int r)
+        public static void Sort(T[] array1, int l, int r)
         {
             if (l < r)
             {
                 int m = l + (r - l) / 2;
                 Sort(array1, l, m);
                 Sort(array1, m + 1, r);
-                // Merge the sorted halves
                 Merge(array1, l, m, r);
             }
         }
-        public static void PrintArray(int[] array1)
+        public static void PrintArray(T[] array1)
         {
             int n = array1.Length;
             for (int i = 0; i < n; ++i)

@@ -15,6 +15,7 @@ namespace Algorithm
             Console.WriteLine("4. Bubble Sort");
             Console.WriteLine("5. Merge Sort");
             Console.WriteLine("6. Anagram Detection");
+            Console.WriteLine("7. Prime Number");
             Console.Write("Enter your choice of operation : ");
             int choice = int.Parse(Console.ReadLine());
             switch (choice)
@@ -51,6 +52,10 @@ namespace Algorithm
                 case 6:
                     Anagram anagram = new Anagram();
                     anagram.CheckAnagram();
+                    break;
+                case 7:
+                    PrimeNumber prime = new PrimeNumber();
+                    prime.Prime();
                     break;
                 default:
                     break;

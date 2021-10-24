@@ -17,6 +17,7 @@ namespace Algorithm
             Console.WriteLine("6. Anagram Detection");
             Console.WriteLine("7. Prime Number");
             Console.WriteLine("8. Anagram and Palindrome Prime");
+            Console.WriteLine("9. Find your Number");
             Console.Write("Enter your choice of operation : ");
             int choice = int.Parse(Console.ReadLine());
             switch (choice)
@@ -61,6 +62,10 @@ namespace Algorithm
                 case 8:
                     PalindromePrime palindromePrime = new PalindromePrime();
                     palindromePrime.Input();
+                    break;
+                case 9:
+                    FindYourNumber findNumber = new FindYourNumber();
+                    findNumber.Number();
                     break;
                 default:
                     break;
